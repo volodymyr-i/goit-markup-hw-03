@@ -1,0 +1,205 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Контейнер */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Логотип */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.header-logo {
+  color: var(--title-text-color);
+}
+
+.site-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+
+  color: var(--title-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* ГЕРОЙ */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  font-weight: 700; /*почему применился шрифт Ариал?)*/
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/* Section */
+
+/*Заголовки H2*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+/* Секция Преимущества */
+.features-title {
+  font-style: 700;
+  font-size: 14px;
+  text-align: left;
+  fill: solid;
+
+  color: var(--title-text-color);
+}
+
+/* Секция Услуги компании */
+
+/* Секция Наша команда */
+.team-title {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  color: var(--title-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* ФУТЕР */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo,
+.footer-contacts-address {
+  font-style: normal;
+  color: var(--primary-white-color);
+}
+
+.footer-contacts-link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* ПОРТФОЛИО */
+/* Фильтр, список кнопок*/
+.filter-button {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  cursor: pointer;
+
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Проекты */
+.gallery-title {
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--primary-text-color);
+}
